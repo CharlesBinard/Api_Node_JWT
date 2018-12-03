@@ -1,0 +1,30 @@
+{
+  "name": "api_node_oauth",
+  "version": "1.0.0",
+  "description": "REST API - Oauth",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "eslint ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --out-dir build",
+    "dev-start": "babel-watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "nconf": "^0.10.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "host": "5500",
+    "jwt": {        
+        "tokenTime" :3600,  
+        "secret":"g56a2s23424jk59fc",
+        "duration": "2 hours"
+    },
+    "mongo": {      
+        "url": "localhost",
+        "port": "27017",
+        "dataBase": "api_node"
+    }
+}
